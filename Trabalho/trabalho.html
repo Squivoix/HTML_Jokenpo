@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="jokempo.css">
+    </head>
+    <body>
+        
+        <script>
+
+        alert("Vamos jogar Jokempo!")
+        alert("Vamos lá!")
+        
+        let nome = prompt("Informe seu nome: ")
+            
+        </script>
+
+        <h1>JOGO JOKEMPÔ</h1>
+        <hr />
+        <h2 id="partida">Partidas: 0</h2>
+        <h2 id="empate">Empates: 0</h2>
+        
+        <hr />
+        <h3 id="nome">Nome: 0</h3>
+
+        <h1> Escoha sua opção: </h1>
+
+        <button onclick="jogar(0)"><img src="pedra.png"/></button>
+        <button onclick="jogar(1)"><img src="papel.png" /></button>
+        <button onclick="jogar(2)"><img src="tesoura.png" /></button>
+        
+        <hr>
+        <h1 id="resultado">RESULTADO:</h1>
+        <hr>
+        <h4 id="computador">Computador: 0</h4>
+
+        <img id="imagemPc" src="pc.png">
+    
+        <script src="script.js"></script> 
+    </body>
+</html>
+
